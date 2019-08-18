@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Book now</title>
+    <style>
+        body{
+            background-image: url(photo1.png);
+            background-size: cover;
+        }
+        .submit{
+            width: 400px;
+            height: auto;
+            
+            margin-top: 10px;
+            padding: 5px;
+        }
+        form{
+            padding: 10px;
+            font-family: Arial;
+          
+        }
+        h1{
+            text-align: center;
+            
+            color: blue;
+            border-radius: 10px;
+        }
+        input{
+            margin:5px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        input[type="text"],input[type="email"]{
+            width:90%;
+        }
+        input[type="submit"]{
+            width: 90%;
+            cursor: pointer;
+            font-weight: bold;
+            background: none;
+            font-size: 24px;
+
+        }
+        input[type="submit"]:hover{
+            background-color: yellow;
+        }
+        select{
+            padding: 10px;
+            width: 90%;
+            border-radius: 5px;
+        }
+        .man ul li a{
+    text-decoration: none;
+    color: black;
+    padding:10px 20px;
+    border: 2px solid black;
+    transition: 0.8s ease;
+}
+.man ul{
+    list-style-type: none;
+    float:right;
+  }
+  .man ul li{
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .man ul li a:hover{
+    background-color: black;
+    color: white;
+    </style>
+    </head>
+    <body>
+            <header>
+                    <div class ="man">
+                  <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="index.html">Rooms</a></li>
+                   <li><a href="index.html">Spa</a></li>
+                   <li><a href="index.html">Resort</a></li>
+                   <li><a href="index.html">About</a></li>
+                   <li><a href="index.html">More+</a></li><li>
+                   <li><a href="contact.html">Contact</a></li>
+                   <li><a href="book.html">Book Now</a></li>
+                  </ul>
+                </div>
+                  </header>
+        <div class="submit">
+            <form>
+                <h1>Book Now</h1>
+                <p><b>Name</b></p>
+                <input type="text" name="yourname" placeholder="Enter your name">
+                <p><b>Email</b></p>
+                <input type="email" name="email" placeholder="your email"><br><br>
+               Checkin date: <input type="date" size="30" class="form-control" min="2019-08-17"><br><br>
+               Expected checkout date: <input type="date" size="30" class="form-control" min="2019-08-17"><br><br>
+               Suite Type: <input type="radio" name="Deluxe" value="Deluxe">Deluxe
+                           <input type="radio" name="Deluxe" value="Deluxe">Comfort
+                           <input type="radio" name="Deluxe" value="Deluxe">Econoic
+                           <br><br>
+                Purpose: <input type="radio" name="single" value="single">Single
+                         <input type="radio" name="single" value="family">Family
+                         <input type="radio" name="single" value="business">Business
+                         <br><br>
+                         <input type="checkbox">I agree the terms and conditions
+                         <br><br>
+
+                         <input type="submit" value="Payment process">
+                         <br><br>
+                         <input type="submit" value="Homepage">
+                           
+                           
+
+            </form>
+
+        </div>
+    </body>
+</html>

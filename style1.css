@@ -1,0 +1,50 @@
+body{
+ background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+
+}
+.avatar{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+    position: absolute;
+}
+.social ul{
+    list-style: none;
+    display: inline block;
+}
+.social ul li{
+    padding: 50px;
+    float: left;
+    margin: 50px;
+    text-align: center;
+}
+ul li a{
+    align-content: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.8s ease;
+}
+.man ul li a:hover{
+    background-color: black;
+    color: white;
+  }
+ .man ul li a{
+    text-decoration: none;
+    color: black;
+    padding:10px 20px;
+    border: 2px solid black;
+    transition: 0.8s ease;
+}
+.man ul{
+    list-style-type: none;
+    float:right;
+  }
+  .man ul li{
+    display: inline-block;
+    margin-left: 20px;
+  }
